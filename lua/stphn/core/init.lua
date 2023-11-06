@@ -1,2 +1,2 @@
-require("stphn.core.keymaps")
-require("stphn.core.options")
+require('stphn.core.keymaps')
+require('stphn.core.options')

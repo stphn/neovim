@@ -1,2 +1,2 @@
-require("stphn.core")
-require("stphn.lazy")
+require('stphn.core')
+require('stphn.lazy')
