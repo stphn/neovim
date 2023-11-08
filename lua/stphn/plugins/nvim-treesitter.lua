@@ -29,6 +29,7 @@ return {
           'typescript',
           'tsx',
           'yaml',
+          'scss',
           'html',
           'css',
           'prisma',
