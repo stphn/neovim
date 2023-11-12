@@ -36,3 +36,11 @@ keymap.set('n', '<leader>tf', '<cmd>tabnew %<CR>', { desc = 'Open current buffer
 
 keymap.set('n', '<leader>w', ':wa<CR>', { desc = 'Save all files' })
 keymap.set('n', '<leader>q', ':qa<CR>', { desc = 'Quit all files' })
+
+-- run python file in next tmux pane and automatically press Enter
+keymap.set(
+  'n',
+  '<leader>rp',
+  ':!tmux send-keys -t 1 "python3 % && read" Enter<CR>',
+  { desc = 'Run python file in next tmux pane' }
+)
